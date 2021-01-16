@@ -30,3 +30,103 @@
     background-color: lightslategrey;
     align-self: flex-end;
 }
+/*Dado*/
+h1{
+    color: white;
+    font-size: 3em;
+}
+header{
+    height: 150px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: white;
+    /* align-self: flex-end; */
+}
+ul li{
+    background-color: #eee;
+    color: #333;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: .5em;
+}
+.logo{
+    border-radius: 50%;
+}
+.main{
+    height: 500px;
+    width: 550px;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+[class^="cara"]{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    margin: 1em;
+}
+.cara1{
+    /* background-color: #333; */
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cara2{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.cara2 .punto:nth-child(2){
+    align-self: flex-end;
+}
+.cara3{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.cara3 .punto:nth-child(2){
+    align-self: center;
+}
+.cara3 .punto:nth-child(3){
+    align-self: flex-end;
+}
+.cara4{
+    justify-content: space-between;
+}
+.cara4 .columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cara4 .punto{
+    align-self: center;
+}
+.cara6{
+    justify-content: space-between;
+}
+.cara6 .columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.punto{
+    width: 24px;
+    height: 24px;
+    background-color: #eee;
+    border-radius: 50%;
+}
