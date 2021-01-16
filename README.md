@@ -19,8 +19,11 @@
   - space-between: Reparte el espacio que hay en el contenedor padre al centro.
   - space-around: Reparte el espacio entre ellos es como colocar un margin.
 - Flex-wrap: nowrap │ wrap │ wrap-reverse;
+  - wrap: indica si los elementos podran desplazarce o no en otro fila o columna (dependiendo la direccion del main axis).
 - Flex-direction: row │ row-reverse │ column │ column-reverse;
   - Cambia el eje principal (main axis).
+- Flex-flox: direccion │ wrap
+  - Esta propiedad es un shorthand que incluye la direccion y el wrap en los items hijos.
 ## Propiedades del contenedor (hijo)
 - aligh-self: flex-start │ flex-end │ center │ stretch │ baseline;
   - Usa los mismo atributos que align-items pero sobreescribe el atributo del item hijo.  
